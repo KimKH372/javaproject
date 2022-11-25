@@ -6,6 +6,7 @@ public class OperationEx3 {
 		int num1 = 10;
 		int i = 2;
 		
+		
 		System.out.println("num1, i 값을 대입 후 ");
 		
 		boolean value = ((num1 = num1 + 10 ) < 10) && ( ( i = i + 2 ) < 10);

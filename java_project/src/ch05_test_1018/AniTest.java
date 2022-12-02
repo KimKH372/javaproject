@@ -28,10 +28,7 @@ public class AniTest {
 		System.out.println(cat.name);
 		System.out.println(cat.age);
 		
-		Animal pig = new Animal();
-		cat.name = "돼지";
-		cat.age = 6;
-		cat.showInfo();
+
 	}
 
 }

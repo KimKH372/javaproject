@@ -21,6 +21,11 @@ public class Student {
 		  subway.take(1500);
 		  this.money -= 1500;
 	 }
+	 
+	 public void takeTaxi(KakaoTaxi kakaoTaxi) {
+		 kakaoTaxi.take(15000);
+		 this.money -= 15000;
+	 }
 	    
 	 public void showInfo() {
 		  System.out.println(studentName + "님의 남은 돈은 " + money + "입니다.");

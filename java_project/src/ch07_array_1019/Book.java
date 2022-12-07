@@ -4,14 +4,33 @@ public class Book {
 
 	private String bookName;
 	private String author;
+	// 가격추가
+	private int price;
 	
+	// 가격 추가한 매개변수가 3개인 생성자 만들기
+	public Book(String bookName, String author, int price) {
+		super();
+		this.bookName = bookName;
+		this.author = author;
+		this.price = price;
+	}
+
 	public Book(){}
 	
 	public Book(String bookName, String author){
 		this.bookName = bookName;
 		this.author = author;
 	}
+
 	
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
 	public String getBookName() {
 		return bookName;
 	}
@@ -25,6 +44,6 @@ public class Book {
 		this.author = author;
 	}
 	public void showBookInfo(){
-		System.out.println(bookName + "," + author);
+		System.out.println(bookName + "," + author+","+price);
 	}
 }

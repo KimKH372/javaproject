@@ -1,6 +1,13 @@
 package ch10_interfaceex_1021;
 
 public class CalculatorTest {
+	
+	public void testInterfaceMethod(Calc calc) {
+		// 테스트 메서드에 올 수 있는 매개변수 형은?
+		//Calc를 포함한, Calc 인터페이스를 구현한 하위 클래스 모두 가능
+		//APIE
+		// A: 추상화 P: 다형성 I: 상속 E: 캡슐화
+	}
 
 	public static void main(String[] args) {
 
@@ -14,7 +21,15 @@ public class CalculatorTest {
 		System.out.println(calc.divide(num1, num2));
 		calc.showInfo();
 		
+		// 다형성, 인터페이스 Calc 구현하면, 마치 상속에서 부모 클래스 형으로 받듯이,
+		// 해당 구현한 인터페이스 형으로도 받을 수 있음
+		Calculator calculator = calc;
+		Calc calc2 = calculator;
 		Calc newCalc = calc;
+		
+		Test t1 = new Test();
+		Calc calc3= t1;
+		Test t2 = (Test)calc3;
 		
 		calc.description();   //디폴트 메소드 호출
 				

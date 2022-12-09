@@ -40,11 +40,7 @@ public class VIPCustomer extends Customer{
 	}
 	
 	
-	public int calcPrice(int price){
-		System.out.println("vip clac 메서드입니다.");
-		bonusPoint += price * bonusRatio;
-		return price - (int)(price * saleRatio);
-	}
+ 
 	
 	public int getAgentID(){
 		return agentID;

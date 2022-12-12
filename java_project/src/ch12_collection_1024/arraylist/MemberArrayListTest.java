@@ -9,6 +9,21 @@ public class MemberArrayListTest {
 		// 해당 자기 이름으로, Member 형 선언해서, 
 		// 추가도 해보고, 출력, 삭제등 해보기. 
 		// 가능하다면 메서드도 하나 만들어서 호출해보기. 
+		MemberArrayList kkh = new MemberArrayList();
+				Member memberkkh1 = new Member(1101, "kkh1");
+				Member memberkkh2 = new Member(1102, "kkh2");
+				Member memberkkh3 = new Member(1103, "kkh3");
+				Member memberkkh4 = new Member(1104, "kkh4");
+				Member memberkkh5 = new Member(1105, "kkh5");
+		
+				kkh.addMember(memberkkh1);
+				kkh.addMember(memberkkh2);
+				kkh.addMember(memberkkh3);
+				kkh.addMember(memberkkh4);
+				
+				kkh.showAllMember();
+				kkh.removeMember(memberkkh5.getMemberId());
+				kkh.showAllMember();
 
 		MemberArrayList memberArrayList = new MemberArrayList();
 		//해당 Member 타입으로 생성자 초기화하고, 

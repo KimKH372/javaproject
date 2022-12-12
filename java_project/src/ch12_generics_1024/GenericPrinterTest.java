@@ -20,7 +20,6 @@ public class GenericPrinterTest {
 		Powder powder = (Powder)powderPrinter.getMaterial();
 		System.out.println(powderPrinter);
 		*/
-//		GenericPrinter<Wa
-//		ter> printer = new GenericPrinter<Water>();	
+//		GenericPrinter<Water> printer = new GenericPrinter<Water>();	
 	}
 }

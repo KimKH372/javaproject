@@ -4,6 +4,7 @@ public class Point<T, V> {
 	// Integer T
 	// Double V
 	
+	// 포함 관계(has A)
 	T x;
 	V y;
 	

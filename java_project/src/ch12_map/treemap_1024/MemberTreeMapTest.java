@@ -8,10 +8,10 @@ public class MemberTreeMapTest {
 
 		MemberTreeMap memberHashMap = new MemberTreeMap();
 		
-		Member memberPark = new Member(1003, "�ڼ���");
-		Member memberLee = new Member(1001, "������");
-		Member memberHong = new Member(1004, "ȫ�浿");
-		Member memberSon = new Member(1002, "�չα�");
+		Member memberPark = new Member(1003, "kkh3");
+		Member memberLee = new Member(1001, "kkh1");
+		Member memberHong = new Member(1004, "kkh4");
+		Member memberSon = new Member(1002, "kkh2");
 		
 		memberHashMap.addMember(memberPark);
 		memberHashMap.addMember(memberLee);

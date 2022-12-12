@@ -17,16 +17,16 @@ public class AnimalHashMapTest {
 		
 		
 		//animal형 객체 4개 생성
-		Animal animalLee = new Animal(1001, "고양이");
-		Animal animalSon = new Animal(1002, "메돼지");
-		Animal animalPark = new Animal(1003, "강아지");
-		Animal animalHong = new Animal(1004, "호랑이");
+		Animal animalCat = new Animal(1001, "고양이");
+		Animal animalPig = new Animal(1002, "메돼지");
+		Animal animalDog = new Animal(1003, "강아지");
+		Animal animalTiger = new Animal(1004, "호랑이");
 		
 		// 해당 4개 객체를 컬렉션인 맵에 추가하고
-		animalHashMap.addAnimal(animalLee);
-		animalHashMap.addAnimal(animalSon);
-		animalHashMap.addAnimal(animalPark);
-		animalHashMap.addAnimal(animalHong);
+		animalHashMap.addAnimal(animalCat);
+		animalHashMap.addAnimal(animalPig);
+		animalHashMap.addAnimal(animalDog);
+		animalHashMap.addAnimal(animalTiger);
 		
 		// 해당 컬렉션의 객체에 있는 수납도구(메서드)를 이용해서 출력하기
 		// 반복자를 이용하는 알고리즘이 포함되어 있음

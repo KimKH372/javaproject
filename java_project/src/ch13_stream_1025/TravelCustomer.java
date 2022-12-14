@@ -23,6 +23,7 @@ public class TravelCustomer {
 	public int getPrice() {
 		return price;
 	}
+
 	
 	public String toString() {
 		return "name: " + name + "age: " + age + "price: " + price; 

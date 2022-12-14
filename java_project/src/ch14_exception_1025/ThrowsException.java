@@ -4,7 +4,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class ThrowsException {
-
+	
+	// class 예약어 클래스를 의미하는 것
+	// class : 실제 클래스, 해당 loadcClass의 리턴값 형
 	public Class loadClass(String fileName, String className) throws  ClassNotFoundException, FileNotFoundException{
 		FileInputStream fis = new FileInputStream(fileName); //FileNotFoundException �߻�
 		Class c = Class.forName(className);  //ClassNotFoundException �߻�
